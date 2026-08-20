@@ -1,4 +1,21 @@
-# Readme
+# Repository status: compatibility and provenance mirror
+
+Development has moved to
+[`edithatogo/global-medicines-atlas`](https://github.com/edithatogo/global-medicines-atlas).
+That repository incorporates the relevant `nzmedicines` work as its New
+Zealand NZULM/NZMT FHIR adapter and fixture source, within a broader
+jurisdiction-neutral evidence system.
+
+This repository is retained unarchived as a compatibility and provenance
+mirror. Existing links and commit identifiers remain valid. New development,
+issues, pull requests, and releases should use the canonical repository.
+
+The migration is anchored to commit
+`6a8ecfae67f15d635750d11d5f446b93d76c1865`. Restricted or locally governed
+source material is not made available by this notice, and the separately
+preserved Git bundle is not distributed from the canonical repository.
+
+# Original readme
 
 In FHIR R4 the two data models split across two complementary resources that are designed to reference each other:
 Medication ← holds the NZULM product data (what the thing is)
